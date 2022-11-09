@@ -1,0 +1,8 @@
+<h2>Il est {new Date().toLocaleTimeString()}.</h2>
+    </div>
+  );
+  // highlight-next-line
+  ReactDOM.render(element, document.getElementById('root'));
+
+  const element = <h1> Fuseaux Horaires</h1>;
+  
